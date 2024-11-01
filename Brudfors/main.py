@@ -15,4 +15,5 @@ def brute_password(password, min_len, max_len): #Указывание миним
                 return
 
 password = '1234'
-brute_password(password, 1, 5) #Можно поставить нужное кол-во символов в пароле
+result = brute_password(password, 1, 5) #Можно поставить нужное кол-во символов в пароле
+print(result)
